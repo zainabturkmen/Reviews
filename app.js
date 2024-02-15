@@ -66,7 +66,7 @@ nextBtn.addEventListener('click', function () {
   if (currentItem > reviews.length - 1) {
     currentItem = 0;
   }    
-  showPerson(currentItem);   
+  showPerson(currentItem);      
 });  
    
 // show prev person  

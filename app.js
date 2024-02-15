@@ -76,7 +76,7 @@ prevBtn.addEventListener('click', function () {
   }
   showPerson(currentItem);
 });
-
+  
 // show random person
 
 randomBtn.addEventListener("click", function() {

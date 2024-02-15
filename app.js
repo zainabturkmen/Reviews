@@ -45,7 +45,6 @@ let currentItem = 1;
 // load initial item
 window.addEventListener('DOMContentLoaded', function () {
   showPerson()
-
 });
     
 // show person based on item

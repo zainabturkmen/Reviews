@@ -63,7 +63,7 @@ function showPerson(person) {
 // show next person
 nextBtn.addEventListener('click', function () {
   currentItem++;
-  if (currentItem > reviews.length - 1) {
+  if (currentItem > reviews.length - 1) {  
     currentItem = 0;
   }    
   showPerson(currentItem);      

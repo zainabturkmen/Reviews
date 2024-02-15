@@ -49,7 +49,6 @@ window.addEventListener('DOMContentLoaded', function () {
   author.textContent = item.name  
   job.textContent = item.job
   info.textContent = item.text
-  author.textContent = item.name;
 });
   
 // show person based on item

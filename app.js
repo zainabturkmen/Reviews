@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', function () {
   info.textContent = item.text
   author.textContent = item.name;
 });
-
+  
 // show person based on item
 function showPerson(person) {
   const item = reviews[person];

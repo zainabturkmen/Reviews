@@ -68,6 +68,7 @@ nextBtn.addEventListener('click', function () {
   }
   showPerson(currentItem);   
 });
+
 // show prev person
 prevBtn.addEventListener('click', function () {
   currentItem--;

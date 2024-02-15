@@ -75,7 +75,7 @@ prevBtn.addEventListener('click', function () {
   if (currentItem < 0) {
     currentItem = reviews.length - 1;
   }
-  showPerson(currentItem);
+  showPerson(currentItem);  
 });
   
 // show random person

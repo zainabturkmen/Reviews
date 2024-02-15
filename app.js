@@ -87,6 +87,3 @@ randomBtn.addEventListener("click", function() {
 
 
 
-
-
-

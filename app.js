@@ -49,6 +49,7 @@ window.addEventListener('DOMContentLoaded', function () {
   author.textContent = item.name  
   job.textContent = item.job
   info.textContent = item.text
+  author.textContent = item.name;
 });
 
 // show person based on item
@@ -76,6 +77,11 @@ prevBtn.addEventListener('click', function () {
   showPerson(currentItem);
 });
 // show random person
+
+randomBtn.addEventListener("click", function() {
+  currentItem = Math.floor(Math.random() * reviews.length)
+})
+
 randomBtn.addEventListener('click', function () {
   console.log('hello');
 
